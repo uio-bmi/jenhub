@@ -1,3 +1,5 @@
+jenkins.ssl: ${JENKINS_SSL:true}
+jenkins.token: ${JENKINS_TOKEN}
 
 jenkins:
-  listOfServers: ${JENKINS_SERVERS:localhost:8080}
+  listOfServers: ${JENKINS_SERVERS:jenkins.norgene.no:443}
